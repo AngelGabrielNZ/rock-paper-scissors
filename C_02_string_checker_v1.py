@@ -3,6 +3,7 @@
 def string_checker(user_response, valid_ans):
     while True:
 
+        # Get user response and make sure it's lowercase
         user_response = user_response.lower()
 
         for item in valid_ans:
